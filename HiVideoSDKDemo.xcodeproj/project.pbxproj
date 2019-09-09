@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA383913AF3F952A90BA43FE /* libPods-defaults-HiVideoSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 640735064F97589D0CAAAF68 /* libPods-defaults-HiVideoSDKDemo.a */; };
+		AA970EF22326248800F90612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA970EF12326248800F90612 /* AppDelegate.m */; };
+		AA970EF52326248800F90612 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA970EF42326248800F90612 /* ViewController.m */; };
+		AA970EF82326248800F90612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA970EF62326248800F90612 /* Main.storyboard */; };
+		AA970EFA2326248E00F90612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA970EF92326248E00F90612 /* Assets.xcassets */; };
+		AA970EFD2326248E00F90612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA970EFB2326248E00F90612 /* LaunchScreen.storyboard */; };
+		AA970F002326248E00F90612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA970EFF2326248E00F90612 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		640735064F97589D0CAAAF68 /* libPods-defaults-HiVideoSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-defaults-HiVideoSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B9AF0A3753FE32F00B9660 /* Pods-defaults-HiVideoSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-HiVideoSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-defaults-HiVideoSDKDemo/Pods-defaults-HiVideoSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AA970EED2326248800F90612 /* HiVideoSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiVideoSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA970EF02326248800F90612 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA970EF12326248800F90612 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA970EF32326248800F90612 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA970EF42326248800F90612 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA970EF72326248800F90612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA970EF92326248E00F90612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA970EFC2326248E00F90612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA970EFE2326248E00F90612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA970EFF2326248E00F90612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDCF7AE74626764743B79502 /* Pods-defaults-HiVideoSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-HiVideoSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-defaults-HiVideoSDKDemo/Pods-defaults-HiVideoSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA970EEA2326248800F90612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA383913AF3F952A90BA43FE /* libPods-defaults-HiVideoSDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54DF199701475566D13FAB57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81B9AF0A3753FE32F00B9660 /* Pods-defaults-HiVideoSDKDemo.debug.xcconfig */,
+				CDCF7AE74626764743B79502 /* Pods-defaults-HiVideoSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9742BD6932739DDA54A56986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				640735064F97589D0CAAAF68 /* libPods-defaults-HiVideoSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA970EE42326248800F90612 = {
+			isa = PBXGroup;
+			children = (
+				AA970EEF2326248800F90612 /* HiVideoSDKDemo */,
+				AA970EEE2326248800F90612 /* Products */,
+				54DF199701475566D13FAB57 /* Pods */,
+				9742BD6932739DDA54A56986 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA970EEE2326248800F90612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA970EED2326248800F90612 /* HiVideoSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA970EEF2326248800F90612 /* HiVideoSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA970EF02326248800F90612 /* AppDelegate.h */,
+				AA970EF12326248800F90612 /* AppDelegate.m */,
+				AA970EF32326248800F90612 /* ViewController.h */,
+				AA970EF42326248800F90612 /* ViewController.m */,
+				AA970EF62326248800F90612 /* Main.storyboard */,
+				AA970EF92326248E00F90612 /* Assets.xcassets */,
+				AA970EFB2326248E00F90612 /* LaunchScreen.storyboard */,
+				AA970EFE2326248E00F90612 /* Info.plist */,
+				AA970EFF2326248E00F90612 /* main.m */,
+			);
+			path = HiVideoSDKDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA970EEC2326248800F90612 /* HiVideoSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA970F032326248E00F90612 /* Build configuration list for PBXNativeTarget "HiVideoSDKDemo" */;
+			buildPhases = (
+				E9B8E47A56AB9F31B9F4885D /* [CP] Check Pods Manifest.lock */,
+				AA970EE92326248800F90612 /* Sources */,
+				AA970EEA2326248800F90612 /* Frameworks */,
+				AA970EEB2326248800F90612 /* Resources */,
+				2D29CD55F28F5F773CEB31AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiVideoSDKDemo;
+			productName = HiVideoSDKDemo;
+			productReference = AA970EED2326248800F90612 /* HiVideoSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA970EE52326248800F90612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = hiApps;
+				TargetAttributes = {
+					AA970EEC2326248800F90612 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = AA970EE82326248800F90612 /* Build configuration list for PBXProject "HiVideoSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA970EE42326248800F90612;
+			productRefGroup = AA970EEE2326248800F90612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA970EEC2326248800F90612 /* HiVideoSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA970EEB2326248800F90612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA970EFD2326248E00F90612 /* LaunchScreen.storyboard in Resources */,
+				AA970EFA2326248E00F90612 /* Assets.xcassets in Resources */,
+				AA970EF82326248800F90612 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D29CD55F28F5F773CEB31AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-defaults-HiVideoSDKDemo/Pods-defaults-HiVideoSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-defaults-HiVideoSDKDemo/Pods-defaults-HiVideoSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-defaults-HiVideoSDKDemo/Pods-defaults-HiVideoSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B8E47A56AB9F31B9F4885D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-defaults-HiVideoSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA970EE92326248800F90612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA970EF52326248800F90612 /* ViewController.m in Sources */,
+				AA970F002326248E00F90612 /* main.m in Sources */,
+				AA970EF22326248800F90612 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA970EF62326248800F90612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA970EF72326248800F90612 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA970EFB2326248E00F90612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA970EFC2326248E00F90612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA970F012326248E00F90612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA970F022326248E00F90612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA970F042326248E00F90612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B9AF0A3753FE32F00B9660 /* Pods-defaults-HiVideoSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59B4HD4DH;
+				INFOPLIST_FILE = HiVideoSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiApps.HiVideoSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA970F052326248E00F90612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDCF7AE74626764743B79502 /* Pods-defaults-HiVideoSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A59B4HD4DH;
+				INFOPLIST_FILE = HiVideoSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiApps.HiVideoSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA970EE82326248800F90612 /* Build configuration list for PBXProject "HiVideoSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA970F012326248E00F90612 /* Debug */,
+				AA970F022326248E00F90612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA970F032326248E00F90612 /* Build configuration list for PBXNativeTarget "HiVideoSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA970F042326248E00F90612 /* Debug */,
+				AA970F052326248E00F90612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA970EE52326248800F90612 /* Project object */;
+}
